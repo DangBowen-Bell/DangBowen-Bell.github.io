@@ -2,8 +2,8 @@
   title: "Reconstructing 3D Human Pose from RGB-D Data with Occlusions"
   venue: Pacific Graphics 2023
   description: ""
-  project_page: "./projects/pg2023.html"
-  paper: ""
+  project_page: "./projects/pg2023"
+  paper: 
   arxiv: 
   github: 
   image: pg2023.png
@@ -20,7 +20,7 @@
   title: "Exploring Effective Data Augmentations for 3D Human Pose and Shape Estimation from a Single Egocentric Image"
   venue: ECCV 2022 HBHA Workshop
   description: ""
-  project_page: ""
+  project_page: 
   paper: "https://sites.google.com/view/egocentric-hand-body-activity/submission"
   arxiv: 
   github: "DangBowen-Bell/EgoBody_Challenge_Solution"
