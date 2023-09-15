@@ -2,7 +2,7 @@
   title: "Reconstructing 3D Human Pose from RGB-D Data with Occlusions"
   venue: Pacific Graphics 2023
   description: ""
-  project_page: "https://dangbowen-bell.github.io/PG2023_web"
+  project_page: "./projects/pg2023.html"
   paper: ""
   arxiv: 
   github: 
@@ -15,7 +15,6 @@
     - wanghe
   awards:
     - "Computer Graphics Forum"
-
 
 - id: eccv2022hbha
   title: "Exploring Effective Data Augmentations for 3D Human Pose and Shape Estimation from a Single Egocentric Image"
