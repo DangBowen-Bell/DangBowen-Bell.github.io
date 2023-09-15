@@ -1,12 +1,29 @@
-- id: hypernerf
-  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2023
-  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
-  project_page: "https://camp-nerf.github.io"
-  arxiv: 2308.10902
-  image: camp_before.jpg
-  image_mouseover: camp_after.mp4
+- id: pg2023
+  title: "Reconstructing 3D Human Pose from RGB-D Data with Occlusions"
+  venue: Pacific Graphics 2023
+  description: ""
+  project_page: "https://dangbowen-bell.github.io/PG2023_web"
+  arxiv: 
+  image: 
+  image_mouseover: 
+  authors:
+    - dangbowen
+    - zhaoxi
+    - zhangbowen
+    - wanghe
+  awards:
+    - "Computer Graphics Forum"
+
+
+- id: eccv2022
+  title: "Exploring Effective Data Augmentations for 3D Human Pose and Shape Estimation from a Single Egocentric Image"
+  venue: ECCV 2022 HBHA Workshop
+  description: ""
+  project_page: ""
+  arxiv: 
+  image: 
+  image_mouseover: 
   authors:
     - dangbowen
   awards:
-    - "Journal Paper"
+    - ""
