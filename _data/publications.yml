@@ -3,6 +3,7 @@
   venue: Pacific Graphics 2023
   description: ""
   project_page: "https://dangbowen-bell.github.io/PG2023_web"
+  paper: ""
   arxiv: 
   github: 
   image: pg2023.png
@@ -21,6 +22,7 @@
   venue: ECCV 2022 HBHA Workshop
   description: ""
   project_page: ""
+  paper: "https://sites.google.com/view/egocentric-hand-body-activity/submission"
   arxiv: 
   github: "DangBowen-Bell/EgoBody_Challenge_Solution"
   image: eccv2022hbha.png
