@@ -4,6 +4,7 @@
   description: ""
   project_page: "https://dangbowen-bell.github.io/PG2023_web"
   arxiv: 
+  github: 
   image: pg2023.png
   image_mouseover: 
   authors:
@@ -21,6 +22,7 @@
   description: ""
   project_page: ""
   arxiv: 
+  github: "https://github.com/DangBowen-Bell/EgoBody_Challenge_Solution"
   image: eccv2022hbha.png
   image_mouseover: 
   authors:
