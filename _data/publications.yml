@@ -4,7 +4,7 @@
   description: ""
   project_page: "./projects/pg2023"
   paper: 
-  arxiv: 
+  arxiv: https://arxiv.org/abs/2310.01228
   github: 
   image: pg2023.png
   image_mouseover: 
