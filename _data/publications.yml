@@ -3,7 +3,7 @@
   venue: Pacific Graphics 2023
   description: ""
   project_page: "./projects/pg2023"
-  paper: 
+  paper: "https://diglib.eg.org/handle/10.1111/cgf14982"
   arxiv: "2310.01228"
   github: "DangBowen-Bell/Occlusion_HPR"
   image: pg2023.png
