@@ -23,7 +23,7 @@ name: Dang Bowen
 position: Master Student
 email: bowendang@qq.com
 description: >-
-  I am a master student at <a href="http://www.xjtu.edu.cn/">Xi'an Jiaotong University</a> supervised by <a href="https://xiaoppx.github.io/home.html">Zhao Xi</a>. My research topic is 3D computer vision. Before that, I got my bachelor's degree in computer science and technology at Xi'an Jiaotong University.
+  I am a master student at <a href="http://www.xjtu.edu.cn/">Xi'an Jiaotong University</a> supervised by <a href="https://xiaoppx.github.io/home.html">Zhao Xi</a>. My research topic is computer graphics and 3D computer vision. Before that, I got my bachelor's degree in computer science and technology at Xi'an Jiaotong University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dangbowen-bell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
