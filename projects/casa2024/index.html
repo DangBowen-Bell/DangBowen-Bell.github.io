@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Reconstructing 3D Human Pose from RGB-D Data with Occlusions">
-  <meta name="keywords" content="3D Human Pose Reconstruction">
+        content="Diverse 3D Human Pose Generation in Scenes based on Decoupled Structure">
+  <meta name="keywords" content="3D Human Pose Generation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Reconstructing 3D Human Pose from RGB-D Data with Occlusions</title>
+  <title>Diverse 3D Human Pose Generation in Scenes based on Decoupled Structure</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-T6BL4JSWZF"></script>
@@ -80,39 +80,34 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Reconstructing 3D Human Pose from RGB-D Data with Occlusions</h1>
           
-          <h2 class="title is-5 publication-title">Pacific Graphics 2023 (Computer Graphics Forum)</h2>
+          <h2 class="title is-5 publication-title">Computer Animation and Social Agents 2024</h2>
           
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://dangbowen-bell.github.io">Bowen Dang</a><sup>1</sup>,</span>
+              <a href="https://dangbowen-bell.github.io">Bowen Dang</a>,</span>
             <span class="author-block">
-              <a href="https://xiaoppx.github.io/home.html">Xi Zhao</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://realityanddreams.github.io">Bowen Zhang</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="http://drhewang.com">He Wang</a><sup>2</sup></span>
+              <a href="https://xiaoppx.github.io/home.html">Xi Zhao</a></span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>Xi'an Jiaotong University,</span>
-            <span class="author-block"><sup>2</sup>University College London</span>
+            <span class="author-block">Xi'an Jiaotong University</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- Paper Link. -->
-              <span class="link-block">
-                <a href="https://diglib.eg.org/handle/10.1111/cgf14982"
+              <!-- <span class="link-block">
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper</span>
                 </a>
-              </span>
+              </span> -->
               <!-- arXiv Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2310.01228"
+                <a href="https://arxiv.org/abs/2406.05691"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -122,7 +117,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/DangBowen-Bell/Occlusion_HPR"
+                <a href="https://github.com/DangBowen-Bell/Decoupled_HPG"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -141,9 +136,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./images/teaser.jpg"/>
+      <img src="./images/teaser.png"/>
       <h2 class="subtitle has-text-centered">
-        Given a monocular RGB-D image and the scene mesh, our method reconstructs the 3D human body with a more plausible pose compared with SMPLify-D and PROX-D by reducing the solution space using free zone and truncated shadow volume. The difference between results is highlighted using red dashed box and arrows.
+        
       </h2>
     </div>
   </div>
@@ -157,7 +152,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a new method to reconstruct the 3D human body from RGB-D images with occlusions. The foremost challenge is the incompleteness of the RGB-D data due to occlusions between the body and the environment, leading to implausible reconstructions that suffer from severe human-scene penetration. To reconstruct a semantically and physically plausible human body, we propose to reduce the solution space based on scene information and prior knowledge. Our key idea is to constrain the solution space of the human body by considering the occluded body parts and visible body parts separately: modeling all plausible poses where the occluded body parts do not penetrate the scene, and constraining the visible body parts using depth data. Specifically, the first component is realized by a neural network that estimates the candidate region named the "free zone", a region carved out of the open space within which it is safe to search for poses of the invisible body parts without concern for penetration. The second component constrains the visible body parts using the "truncated shadow volume" of the scanned body point cloud. Furthermore, we propose to use a volume matching strategy, which yields better performance than surface matching, to match the human body with the confined region. We conducted experiments on the PROX dataset, and the results demonstrate that our method produces more accurate and plausible results compared with other methods.
+            This paper presents a novel method for generating diverse 3D human poses in scenes with semantic control. Existing methods heavily rely on the human-scene interaction dataset, resulting in a limited diversity of the generated human poses. To overcome this challenge, we propose to decouple the pose and interaction generation process. Our approach consists of three stages: pose generation, contact generation, and putting human into the scene. We train a pose generator on the human dataset to learn rich pose prior, and a contact generator on the human-scene interaction dataset to learn human-scene contact prior. Finally, the placing module puts the human body into the scene in a suitable and natural manner. The experimental results on the PROX dataset demonstrate that our method produces more physically plausible interactions and exhibits more diverse human poses. Furthermore, experiments on the MP3D-R dataset further validates the generalization ability of our method.
           </p>
         </div>
       </div>
@@ -168,14 +163,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{10.1111:cgf.14982,
-  journal = {Computer Graphics Forum},
-  title = {{Reconstructing 3D Human Pose from RGB-D Data with Occlusions}},
-  author = {Dang, Bowen and Zhao, Xi and Zhang, Bowen and Wang, He},
-  year = {2023},
-  publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
-  ISSN = {1467-8659},
-  DOI = {10.1111/cgf.14982}
+    <pre><code>@article{dang2024diverse,
+  title={Diverse 3D Human Pose Generation in Scenes based on Decoupled Structure},
+  author={Dang, Bowen and Zhao, Xi},
+  journal={arXiv preprint arXiv:2406.05691},
+  year={2024}
 }</code></pre>
   </div>
 </section>
