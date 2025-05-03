@@ -79,21 +79,6 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Text to 3D Human Motion Generation</h1>
-          
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- Paper Link. -->
-              <!-- <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span> -->
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -105,11 +90,77 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Introduction</h2>
         <div class="content has-text-justified">
-          <p>
-             Text-to-motion generation is an interesting topic in the filed of computer vision, which aims to generate realistic 3D human motion from textual descriptions and has a wide range of applications in filmmaking, video games, and digital humans. Unlike static image or object generation, this task involves capturing temporal dynamics, physical plausibility, and fine-grained semantic alignment between language and motion. While recent methods have shown promising results, challenges still remain in preserving the correct ordering, duration, and completeness of the described actions. These limitations motivate the need for models that can more explicitly reason about the temporal structure inherent in natural language.
-          </p>
+          <p>Text-to-motion generation is an interesting topic in the filed of computer vision, which aims to generate realistic 3D human motion from textual descriptions and has a wide range of applications in filmmaking, video games, and digital humans.</p>
+          <p>Unlike static image or object generation, this task involves capturing temporal dynamics, physical plausibility, and fine-grained semantic alignment between language and motion.</p>
+          <p>While recent methods have shown promising results, challenges still remain in preserving the correct ordering, duration, and completeness of the described actions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small is-light">
+  <div class="container is-max-desktop">
+    <center><h2 class="title is-3">Results</h2></center>
+    <br>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="video-container">
+          <center><p>"a man is walking around in a circle"</p></center>
+          <br>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="video-container">
+          <center><p>"a person picks something up and puts it down to the side"</p></center>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample2.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="video-container">
+          <center><p>"a person walks forward and then turns around on his left foot and walks back"</p></center>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="video-container">
+          <center><p>"person bends at the knees and jumps forward"</p></center>
+          <br>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample4.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="video-container">
+          <center><p>"a person sits down, rests their hands on their knees, and then stands back up"</p></center>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample5.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="video-container">
+          <center><p>"a kneeling person crawls forward, turns around, crawls back, stands and turns to the left"</p></center>
+          <video id="video" controls autoplay muted loop playsinline height="40%">
+            <source src="images/sample6.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
